@@ -1,0 +1,44 @@
+nav {
+  background-color: crimson;
+  height: 5.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 12rem;
+  margin-left: 18px;
+}
+
+.right-section {
+  width: 34rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right-section a {
+  padding-top: 35px;
+  height: 100%;
+}
+
+.header-options {
+  border-bottom: 2px solid transparent;
+  display: inline-flex;
+  cursor: pointer;
+  height: 5.2rem;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  box-sizing: border-box;
+}
+
+.header-text {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: font-size 0.15s;
+}
